@@ -1,0 +1,21 @@
+{
+	"aceptar": "Aceptar",
+	"cancelar": "Cancelar",
+	"salir": "Salir",
+	"msg_eliminar":"¿ Desea eliminar el estudio ?",
+	"usuario": "Usuario",
+	"contrasenya": "Contraseña",
+	"msg_contrasenya": "Contraseña incorrecta, inténtelo de nuevo.",
+	"msg_contrasenya2": "Las contraseña no coinciden.",
+	"nombre": "Nombre",
+	"1apellido": "1Apellido",
+	"2apellido": "2Apellido",
+	"dni": "Dni",
+	"fecha nacimiento": "Fecha Nacimiento",
+	"altura": "Altura",
+	"peso": "Peso",
+	"genero": "Género",
+	"observaciones": "Observaciones"
+
+
+}

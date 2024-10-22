@@ -1,0 +1,19 @@
+{
+	"aceptar": "Accept",
+	"cancelar": "Cancel",
+	"salir": "Exit",
+	"msg_eliminar": "¿ You want to delete the study ?",
+	"usuario": "User",
+	"contrasenya": "Password",
+	"msg_contrasenya": "Incorrect password, please try again",
+	"msg_contrasenya2": "The passwords do not match.",
+	"nombre": "Name",
+	"1apellido": "1Surname",
+	"2apellido": "2Surname",
+	"dni": "Dni",
+	"fecha nacimiento": "Birth date",
+	"altura": "Height",
+	"peso": "Weight",
+	"genero": "Gender",
+	"observaciones": "Observations"
+}
