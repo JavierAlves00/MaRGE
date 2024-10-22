@@ -22,6 +22,7 @@ from widgets.widget_toolbar_sequences import SequenceToolBar
 import configs.hw_config as hw
 
 
+
 class SequenceController(SequenceToolBar):
     """
     A class that controls the sequence and provides methods for interacting with it.
@@ -292,6 +293,7 @@ class SequenceController(SequenceToolBar):
                 sequence.mapVals['angle'] = 0.0
 
         self.main.sequence_list.updateSequence()
+
 
     def startSequencePlot(self):
         """
