@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>scan</class>
+ <widget class="QWidget" name="scan">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1681</width>
+     <height>931</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="l_pantalla">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1651</width>
+      <height>911</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Users/Javier/Pictures/Screenshots/Captura de pantalla 2024-06-07 085423.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="fondo_sombra">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>1050</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_fecha_hora">
+   <property name="geometry">
+    <rect>
+     <x>1295</x>
+     <y>969</y>
+     <width>621</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_usuario_acceso">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>970</y>
+     <width>621</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_logo_2">
+   <property name="geometry">
+    <rect>
+     <x>1490</x>
+     <y>420</y>
+     <width>451</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../logo/logo_empresa.png</pixmap>
+   </property>
+  </widget>
+  <zorder>l_logo_2</zorder>
+  <zorder>fondo_sombra</zorder>
+  <zorder>frame</zorder>
+  <zorder>l_fecha_hora</zorder>
+  <zorder>l_usuario_acceso</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
