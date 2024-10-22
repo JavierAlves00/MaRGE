@@ -364,6 +364,7 @@ class SequenceController(SequenceToolBar):
             defaultsequences[seq_name].mapVals['axesOrientation'] = [2, 0, 1]
             self.runToList(seq_name=seq_name)
 
+
         print("Finalizo localizer")
 
 
