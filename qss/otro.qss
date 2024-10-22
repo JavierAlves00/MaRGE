@@ -1,0 +1,43 @@
+QMainWindow {
+    background-color: #22262A;
+    }
+    
+QDialog {
+    background-color: #22262A;
+    }
+
+QLabel {
+    font: bold 25px;
+    color: #485159;
+    }
+
+QPushButton {
+    background-color: #292E33;
+    font: bold 18px;
+    color: #6F7D8A;
+    border-block: 15px solid red;
+    }
+QPushButton {
+    background: #72CAAF;
+}
+
+QPushButton:active {
+    background-color: lightblue;
+    background-color: #292E33;
+
+
+
+    /* border: 5px solid #485159; */
+    /* border-top-left-radius: 15px; */
+    /* border-bottom-right-radius: 15px; */
+
+
+}
+
+QLineEdit { color: blue;
+            background-color: #292E33;
+            font: 25px;
+            color: white;
+            border-style: dashed solid;
+    }
+
