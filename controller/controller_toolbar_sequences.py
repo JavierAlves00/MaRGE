@@ -366,6 +366,7 @@ class SequenceController(SequenceToolBar):
 
         print("Finalizo localizer")
 
+
     def iterate(self):
         """
         Switch the iterative mode.
