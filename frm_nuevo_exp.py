@@ -27,10 +27,6 @@ class frm_nuevo_exp(QDialog, Ui_nuevo_exp):
     def __init__(self, parent=None):
     #def __init__(self, controller):
         super().__init__()
-        #self.session = {}
-        #self.session['directory'] = 'experiments/acquisitions/%s/%s' % (
-        #    variables.vg_paciente, variables.vg_fechaHora)
-        #self.main_gui = MainController(self.session, demo=False, parent=self)
         self.setupUi(self)
         self.config_pantalla()
         self.timer = QTimer(self)
