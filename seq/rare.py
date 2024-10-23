@@ -401,7 +401,7 @@ class RARE(blankSeq.MRIBLANKSEQ):
         scanTime = nRepetitions*self.repetitionTime
         self.mapVals['Scan Time (s)'] = scanTime*self.nScans*1e-6
 
-        #seqTime = nPoints[1] / etl * nPoints[2] * repetitionTime * 1e-3 * nScans * parFourierFraction
+        seqTime = nPoints[1] / etl * nPoints[2] * repetitionTime * 1e-3 * nScans * parFourierFraction
 
         # Create full sequence
         # Run the experiment
@@ -883,8 +883,7 @@ class RARE(blankSeq.MRIBLANKSEQ):
         print('Phase difference at iso-center: %0.1f º' % ((res2.intercept - res1.intercept) * 180 / np.pi))
         print('Phase slope difference %0.3f rads/m' % (res2.slope - res1.slope))
         
-        print("fin dummyAnalysis")
-
+        
     def save_ismrmrd(self):
         """
         Save the current instance's data in ISMRMRD format.
