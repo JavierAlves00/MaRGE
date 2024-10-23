@@ -1,1 +1,1 @@
-# hola mundo
+# Comentario desde git-explorer
