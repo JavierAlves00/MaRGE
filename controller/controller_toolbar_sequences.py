@@ -257,6 +257,7 @@ class SequenceController(SequenceToolBar):
             This method adds a new run to the waiting list. It retrieves the sequence name, adds the item to the history list,
             saves the results into the history, and sets the dfov and angle values to zero for the next figures.
         """
+
         # Load sequence name
         if seq_name is None or seq_name is False:
             seq_name = self.main.sequence_list.getCurrentSequence()
