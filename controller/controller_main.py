@@ -18,7 +18,7 @@ class MainController(MainWindow):
     def __init__(self, *args, **kwargs):
         super(MainController, self).__init__(*args, **kwargs)
 
-        self.set_session(self.session)
+       # self.set_session(self.session)
 
         self.initializeThread()
 
