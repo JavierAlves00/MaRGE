@@ -334,6 +334,7 @@ class frm_nuevo_exp(QDialog, Ui_nuevo_exp):
 
             self.main_gui.toolbar_figures.action_postprocessing.setVisible(False)
             self.main_gui.toolbar_figures.action_screenshot.setVisible(False)
+            self.main_gui.toolbar_figures.action_open_directory.setVisible(False)
             #self.main_gui.toolbar_figures.action_full_screen.setVisible(False)
 
             self.main_gui.toolbar_protocols.action_del_protocol.setVisible(False)
@@ -447,12 +448,12 @@ class frm_nuevo_exp(QDialog, Ui_nuevo_exp):
             self.main_gui.input_table.show()
             self.main_gui.custom_and_protocol.show()
 
-            self.main_gui.saveSessionToSequences(self.session)
-            self.main_gui.console.setup_console()
+            #self.main_gui.saveSessionToSequences(self.session)
+            #self.main_gui.console.setup_console()
             self.main_gui.history_list.delete_items()
             self.main_gui.console.clear_console()
             self.main_gui.setWindowTitle(self.session['directory'])
-            self.main_gui.setDemoMode(False)
+            #self.main_gui.setDemoMode(False)
 
         if variables.vg_act_marcos == True:
             # si el proceso de activación se ha concluido
