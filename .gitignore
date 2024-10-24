@@ -3,7 +3,6 @@ sphinx/_build/
 *.py[cod]
 experiments
 calibration
-protocols
 .idea/
 configs/units.py
 configs/hw_config.py
